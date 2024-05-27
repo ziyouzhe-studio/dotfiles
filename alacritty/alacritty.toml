@@ -236,8 +236,12 @@ mods = "Command"
 [window]
 decorations = "buttonless"
 dynamic_padding = false
-opacity = 0.9
+opacity = 0.65
 
 [window.padding]
-x = 35
-y = 25
+x = 10
+y = 10
+
+[window.dimensions]
+columns = 130
+lines = 50
