@@ -15,7 +15,7 @@ decorations = "Buttonless"
 normal.family = "0xProto Nerd Font"
 
 #regular
-size = 20
+size = 23
 
 #for video
 # size = 35.0
