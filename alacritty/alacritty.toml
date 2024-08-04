@@ -1,0 +1,29 @@
+import = [
+    # "~/.config/alacritty/themes/themes/coolnight.toml"
+    "C:/Users/Administrator/AppData/Roaming/alacritty/themes/themes/coolnight.toml"
+]
+
+[ env ]
+TERM = "xterm-256color"
+GTK_IM_MODULE = "fcitx5"
+QT_IM_MODULE = "fcitx5"
+XMODIFIERS = "@im=fcitx5"
+
+[window]
+padding.x = 15
+padding.y = 15
+
+decorations = "Buttonless"
+
+[font]
+normal.family = "0xProto Nerd Font"
+
+#regular
+size = 16
+
+#for video
+# size = 35.0
+
+[shell]
+program = "pwsh"
+args = ["-NoExit"]
